@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 263
-    length: 37
+    length: 210
     placeholder_text: "...  # TODO реализовать операцию push"
     initial_state:
       length: 37
       offset: 263
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: self._stack.append(elem)
-  - offset: 514
+  - offset: 687
     length: 36
     placeholder_text: "...  # TODO реализовать операцию pop"
     initial_state:
@@ -21,13 +21,13 @@ files:
       offset: 514
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if not self._stack:
                   raise IndexError("Извлечение из пустого стека не возможно")
 
               return self._stack.pop()
-  - offset: 1022
+  - offset: 1195
     length: 37
     placeholder_text: "...  # TODO реализовать операцию peek"
     initial_state:
@@ -35,7 +35,7 @@ files:
       offset: 1022
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if not isinstance(ind, int):
                   raise TypeError(f"Индекс должен быть целочисленного типа, а не {type(ind).__name__}")
@@ -45,7 +45,7 @@ files:
 
               inv_ind = -1 - ind
               return self._stack[inv_ind]
-  - offset: 1129
+  - offset: 1302
     length: 38
     placeholder_text: "...  # TODO реализовать операцию clear"
     initial_state:
@@ -53,9 +53,9 @@ files:
       offset: 1129
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: self._stack.clear()
-  - offset: 1253
+  - offset: 1426
     length: 40
     placeholder_text: "...  # TODO реализовать операцию __len__"
     initial_state:
@@ -63,7 +63,7 @@ files:
       offset: 1253
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: return len(self._stack)
   text: |
     from typing import Any
@@ -206,5 +206,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 01 Jun 2024 22:17:33 UTC"
 record: -1

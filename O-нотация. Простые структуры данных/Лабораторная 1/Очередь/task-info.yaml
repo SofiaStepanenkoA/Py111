@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 204
-    length: 35
+    length: 536
     placeholder_text: "...  # TODO инициализировать список"
     initial_state:
       length: 35
       offset: 204
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '...'
-  - offset: 418
+  - offset: 919
     length: 37
     placeholder_text: "...  # TODO реализовать метод enqueue"
     initial_state:
@@ -21,9 +21,9 @@ files:
       offset: 418
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
-  - offset: 679
+  - offset: 1180
     length: 37
     placeholder_text: "...  # TODO реализовать метод dequeue"
     initial_state:
@@ -31,9 +31,9 @@ files:
       offset: 679
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
-  - offset: 1198
+  - offset: 1699
     length: 34
     placeholder_text: "...  # TODO реализовать метод peek"
     initial_state:
@@ -41,9 +41,9 @@ files:
       offset: 1198
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
-  - offset: 1304
+  - offset: 1805
     length: 35
     placeholder_text: "...  # TODO реализовать метод clear"
     initial_state:
@@ -51,9 +51,9 @@ files:
       offset: 1304
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
-  - offset: 1420
+  - offset: 1921
     length: 37
     placeholder_text: "...  # TODO реализовать метод __len__"
     initial_state:
@@ -61,7 +61,7 @@ files:
       offset: 1420
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     """
@@ -199,6 +199,9 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 01 Jun 2024 22:18:50 UTC"
 record: -1
 solution_hidden: false

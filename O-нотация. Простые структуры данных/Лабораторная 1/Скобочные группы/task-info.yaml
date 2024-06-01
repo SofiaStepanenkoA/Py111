@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 280
-    length: 49
+    length: 437
     placeholder_text: "...  # TODO реализовать проверку скобочной группы"
     initial_state:
       length: 49
       offset: 280
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     def check_brackets(brackets_row: str) -> bool:
@@ -55,6 +55,9 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 01 Jun 2024 22:18:02 UTC"
 record: -1
 solution_hidden: false

@@ -11,7 +11,7 @@ class Stack:
 
         :param elem: Элемент, который должен быть добавлен
         """
-        ...  # TODO реализовать операцию push
+        self._stack.append(elem)  # TODO реализовать операцию push
 
     def pop(self) -> Any:
         """
@@ -21,8 +21,9 @@ class Stack:
 
         :return: Извлеченный с вершины стека элемент.
         """
-        ...  # TODO реализовать операцию pop
-
+        if not self._stack:
+            raise IndexError("Стэк пуст!")
+        return self._stack.pop()
     def peek(self, ind: int = 0) -> Any:
         """
         Просмотр произвольного элемента, находящегося в стеке, без его извлечения.
@@ -34,12 +35,15 @@ class Stack:
 
         :return: Значение просмотренного элемента
         """
-        ...  # TODO реализовать операцию peek
-
+        if not isinstance(ind, int):
+            raise TypeError
+        if ind not in range (len(self._stack)):
+            raise IndexError
+        return self._stack[-1-ind]
     def clear(self) -> None:
         """ Очистка стека. """
-        ...  # TODO реализовать операцию clear
+        self._stack.clear()
 
     def __len__(self) -> int:
         """ Количество элементов в стеке. """
-        ...  # TODO реализовать операцию __len__
+        return len(self._stack)

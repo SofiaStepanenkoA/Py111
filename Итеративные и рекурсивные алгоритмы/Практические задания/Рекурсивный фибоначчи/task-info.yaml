@@ -11,7 +11,7 @@ files:
       offset: 269
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if n < 0:
               raise ValueError("Номер числа Фибоначчи должен быть не отрицательным числом")
@@ -63,5 +63,8 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 08 Jun 2024 16:16:12 UTC"
 record: -1

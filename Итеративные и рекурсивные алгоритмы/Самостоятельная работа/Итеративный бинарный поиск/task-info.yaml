@@ -12,7 +12,7 @@ files:
       offset: 381
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       left_border = 0
           right_border = len(seq) - 1
@@ -128,5 +128,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 09 Jun 2024 11:01:19 UTC"
 record: -1

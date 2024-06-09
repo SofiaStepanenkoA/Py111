@@ -17,3 +17,17 @@ def binary_search(
     :return: Индекс элемента в массиве
     """
     ...  # TODO реализовать алгоритм бинарного поиска
+    if not right_border:
+        right_border=len(seq)-1
+    if right_border<left_border:
+        raise ValueError
+    mid = (right_border+left_border)//2
+    if value<seq[mid]:
+        return binary_search(value,seq,left_border,mid-1)
+    elif value>seq[mid]:
+        return binary_search(value, seq, mid+1, right_border)
+    else:
+        while seq[mid-1]==value and mid > left_border:
+            mid-=1
+        return mid
+

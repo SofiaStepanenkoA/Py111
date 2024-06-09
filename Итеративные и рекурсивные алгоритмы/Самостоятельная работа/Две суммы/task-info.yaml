@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 86
-    length: 3
+  - offset: 321
+    length: 16
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 86
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       dict_ = {target - val: idx for idx, val in enumerate(nums)}
           for idx, val in enumerate(nums):
@@ -54,5 +54,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 09 Jun 2024 12:09:55 UTC"
 record: -1

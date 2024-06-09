@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 285
+  - offset: 296
     length: 73
     placeholder_text: "...  # TODO вычислить sin(x) с помощью разложения сумму бес\
       конечного ряда"
@@ -11,8 +11,8 @@ files:
       length: 73
       offset: 285
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       def item(n):
               """ Подсчет очередного элемента бесконечного ряда Тейлора для sin(x)"""
@@ -69,5 +69,8 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 09 Jun 2024 11:47:30 UTC"
 record: -1

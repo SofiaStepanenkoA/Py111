@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 458
-    length: 42
+    length: 1160
     placeholder_text: "...  # TODO реализуйте сортировку слиянием"
     initial_state:
       length: 42
       offset: 458
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not container:
               return container
@@ -115,5 +115,8 @@ files:
 - name: merge_sort.gif
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Jun 2024 19:09:41 UTC"
 record: -1

@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 486
+  - offset: 296
     length: 54
     placeholder_text: "...  # TODO реализовать алгоритм сортировки подсчетами"
     initial_state:
@@ -11,7 +11,7 @@ files:
       offset: 486
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     from typing import Sequence
@@ -70,5 +70,8 @@ files:
 - name: counting_sort.gif
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Jun 2024 19:50:10 UTC"
 record: -1

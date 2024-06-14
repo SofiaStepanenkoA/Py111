@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 495
-    length: 51
+    length: 76
     placeholder_text: "...  # TODO реализовать алгоритм быстрой сортировки"
     initial_state:
       length: 51
       offset: 495
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not container:
               return container
@@ -79,5 +79,8 @@ files:
 - name: quick_sort.gif
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Jun 2024 18:20:16 UTC"
 record: -1

@@ -10,8 +10,8 @@ files:
       length: 53
       offset: 520
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     from typing import Sequence
@@ -71,5 +71,8 @@ files:
 - name: bubble_sort.gif
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 14 Jun 2024 19:24:58 UTC"
 record: -1

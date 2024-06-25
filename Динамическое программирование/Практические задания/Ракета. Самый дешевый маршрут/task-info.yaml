@@ -11,7 +11,7 @@ files:
       offset: 355
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       table = table.copy()
           n = len(table)
@@ -80,5 +80,8 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 24 Jun 2024 12:56:58 UTC"
 record: -1

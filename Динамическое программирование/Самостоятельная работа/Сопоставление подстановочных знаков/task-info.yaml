@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 42
-    length: 3
+    length: 487
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 42
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       m, n = len(s), len(p)
           dp = [[False] * (n + 1) for _ in range(m + 1)]
@@ -52,5 +52,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 25 Jun 2024 02:46:41 UTC"
 record: -1

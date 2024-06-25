@@ -11,7 +11,7 @@ files:
       offset: 449
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       count_stairs = len(stairway)
           if count_stairs == 1:
@@ -89,5 +89,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 24 Jun 2024 11:52:57 UTC"
 record: -1

@@ -11,7 +11,7 @@ files:
       offset: 330
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if count_stairs < 0:
               raise ValueError("Количество ступеней должно быть не отрицательным числом")
@@ -85,5 +85,8 @@ files:
 - name: stairs_paths.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 24 Jun 2024 11:37:16 UTC"
 record: -1

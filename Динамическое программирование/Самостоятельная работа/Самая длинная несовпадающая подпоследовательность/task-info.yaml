@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 74
+  - offset: 475
     length: 3
     placeholder_text: '...'
     initial_state:
@@ -11,7 +11,7 @@ files:
       offset: 74
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       i, j = 0, 0
           while i < len(a) and j < len(b):
@@ -19,15 +19,15 @@ files:
                   j += 1
               i += 1
           return j == len(b)
-  - offset: 129
-    length: 3
+  - offset: 512
+    length: 0
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 129
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       strs.sort(key=len, reverse=True)
           for i, s in enumerate(strs):
@@ -87,5 +87,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 25 Jun 2024 02:40:58 UTC"
 record: -1

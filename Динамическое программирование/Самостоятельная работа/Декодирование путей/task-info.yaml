@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 38
-    length: 3
+    length: 351
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 38
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not s:
               return 0
@@ -54,5 +54,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 25 Jun 2024 02:43:30 UTC"
 record: -1

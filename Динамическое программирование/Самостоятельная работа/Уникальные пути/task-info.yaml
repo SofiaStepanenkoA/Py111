@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 45
-    length: 3
+  - offset: 41
+    length: 288
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 45
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       dp = [[0] * n for _ in range(m)]
           for i in range(m):
@@ -50,5 +50,8 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 25 Jun 2024 02:42:22 UTC"
 record: -1

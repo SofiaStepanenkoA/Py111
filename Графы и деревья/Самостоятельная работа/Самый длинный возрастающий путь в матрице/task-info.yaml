@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 292
+  - offset: 624
     length: 34
     placeholder_text: '# TODO реализовать поиск в глубину'
     initial_state:
       length: 34
       offset: 292
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not dp[i][j]:
                   for dx, dy in directions:
@@ -67,5 +67,8 @@ files:
 - name: img_1.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 01 Jul 2024 03:09:39 UTC"
 record: -1

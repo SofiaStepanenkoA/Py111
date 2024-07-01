@@ -12,7 +12,7 @@ files:
       offset: 693
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       _, coasts = nx.dijkstra_predecessor_and_distance(g, starting_node)
           for node in g.nodes:
@@ -20,7 +20,7 @@ files:
                   coasts[node] = float("inf")
 
           return coasts
-  - offset: 809
+  - offset: 988
     length: 25
     placeholder_text: "...  # TODO записать граф"
     initial_state:
@@ -28,7 +28,7 @@ files:
       offset: 809
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       graph = nx.DiGraph()
           graph.add_weighted_edges_from([
@@ -136,5 +136,8 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 01 Jul 2024 02:18:43 UTC"
 record: -1

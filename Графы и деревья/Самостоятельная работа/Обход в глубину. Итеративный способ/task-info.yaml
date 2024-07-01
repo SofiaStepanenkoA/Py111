@@ -6,7 +6,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 562
+  - offset: 759
     length: 60
     placeholder_text: "...  # TODO реализовать обход в глубину итеративным способо\
       м"
@@ -15,7 +15,7 @@ files:
       offset: 562
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       visited = {node: False for node in g.nodes}
           d = deque()  # вершина стека справа
@@ -94,5 +94,8 @@ files:
                 msg="Возвращаемый список несоответствует нужному порядку обхода."
             )
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 01 Jul 2024 03:01:59 UTC"
 record: -1
